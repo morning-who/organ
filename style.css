@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #1F1F1F;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #BB86FC;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 1.5rem;
+}
+
+.nav-links a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #BB86FC;
+}
+
+#hero {
+    background-image: url('pixlr-image-generator-939a8c55-4d54-4e93-abc5-59b9e6566aa3.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #E0E0E0;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #BB86FC;
+    margin-top: 50px; 
+    
+    
+}
+
+.cta-button {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    background-color: #BB86FC;
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    /* transition: background-color 0.3s ease, transform 0.3s ease; */
+}
+
+.cta-button:hover {
+    background-color: #612da5;
+    /* transform: scale(1.1); */
+}
+
+.section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.dark-section {
+    background-color: #1F1F1F;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.stat {
+    text-align: center;
+}
+
+form {
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form select, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    background-color: #2C2C2C;
+    border: 1px solid #BB86FC;
+    color: #E0E0E0;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #BB86FC;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+}
+.faq-question, .faq-answer {
+    text-align: left;
+}
+
+
+
+form input[type="submit"]:hover {
+    background-color: #6200EE;
+}
+
+html {
+    scroll-behavior: smooth;
+}
